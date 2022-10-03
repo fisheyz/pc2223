@@ -13,7 +13,6 @@ while int(t) != 0:
         froshclasses = sys.stdin.readline().split()
         # classesset = sorted(set([int(x) for x in froshclasses]))
         classesset = sorted([int(x) for x in froshclasses])
-        print("classes", classesset)
         popularity[str(classesset)] += 1
 
     maxval = max(popularity.values())
