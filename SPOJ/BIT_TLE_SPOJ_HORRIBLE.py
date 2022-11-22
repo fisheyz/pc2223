@@ -54,7 +54,6 @@ for t in range(T):
             v = command[3]
             rangeUpdate(BITTree1, BITTree2, l, r, N, v)
         else:
-
             p = command[1] - 1
             q = command[2] - 1
             tmp = rangeSum(p, q, BITTree1, BITTree2)
